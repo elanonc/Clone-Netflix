@@ -15,7 +15,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Helvetica, sans-serif;
     color: #FFF;
 }
 
@@ -29,16 +29,16 @@ header .container {
 }
 
 header .logo {
-    color: var(--vermelho);
-    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    margin-left: 1%;
+    width: 125px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    font-size: 15px;
 }
 
 header nav a:hover {
@@ -50,7 +50,7 @@ header nav a:hover {
 .filme-principal {
     font-size: 20px;
     
-    height: 500px;
+    height: 550px;
     background: linear-gradient(#00000080, #00000080 100%), url('/img/capa-brinquedos.jpg');
     background-size: cover;
 
@@ -63,6 +63,8 @@ header nav a:hover {
 .filme-principal .description {
     margin-top: 10px;
     margin-bottom: 40px;
+    width: 70%;
+    font-size: 20px;
 }
 
 .filme-principal .title {
@@ -74,11 +76,12 @@ header nav a:hover {
 .filme-principal .button {
     background-color: rgba(0,0,0,.50);
     border: none;
+    border-radius: 5%;
     color: #FFF;
 
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 15px;
 
     cursor: pointer;
     transition: .3s ease all;
@@ -89,6 +92,26 @@ header nav a:hover {
     color: #000;
 }
 
-.button i{
+.filme-principal .button i{
     margin-right: 8px;
+}
+
+/* Classe Container*/
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 8px;
 }

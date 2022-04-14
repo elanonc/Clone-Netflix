@@ -7,12 +7,17 @@
     <title>NETFLIX CLONE</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
+            <img  class="logo" src="img/logo-netflix.png" alt="Logo original da Netflix">
+            <nav class="nav-item">
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
@@ -26,20 +31,73 @@
             <div class="container">
                 <h3 class="title">BRINQUEDOS QUE MARCAM ÉPOCA</h3>
                 <p class="description">As mentes por trás das franquias de brinquedos mais icônicas da história discutem a ascensão - e às vezes queda - de suas criações de bilhões de dólares.</p>
-            </div>
-            <div class="buttons">
-                <button role class="button">
-                    <i class="fa-solid fa-play"></i>
-                    ASSISTIR
-                </button>
-                <button role="button" class="button">
-                    <i class="fa-solid fa-circle-info"></i>
-                    MAIS INFORMAÇÕES
-                </button>
+                <div class="buttons">
+                    <button role class="button">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR
+                    </button>
+                    <button role="button" class="button">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/min1.jpg" alt="Capa do filme Missão Impossível: Efeito Fallout">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min2.jpg" alt="Capa da série Bridgethon">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min3.jpg" alt="Capa do filme Princesa Mononoke">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min4.jpg" alt="Capa da série Brooklyn Nine-Nine">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min5.jpg" alt="Capa do filme Star Trek">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min6.jpg" alt="Capa da série Elite">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min7.jpg" alt="Capa do filme O Serviço de Entregas da Kiki">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min8.jpg" alt="Capa da série Arcane">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min9.jpg" alt="Capa da série Jornada nas Estrelas">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min10.jpg" alt="Capa do filme Volver">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min11.jpg" alt="Capa do filme Se a Rua Beale Falasse">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min12.jpg" alt="Capa da série Stranger Things">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min13.jpg" alt="Capa da série Round 6">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min14.jpg" alt="Capa da série Sex Education">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min15.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/350442483e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
